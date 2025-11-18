@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WMP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/podcast_white.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+    <header class="navbar fixed-top p-0" id="header-content">
+        <podcast-header></podcast-header>
+    </header>
+
+    <main class="row margins">
+        <div class="container-fluid" id="main-content">
+            <podcast-startpage></podcast-startpage>
+        </div>
+    </main>
+
+    <footer class="row fixed-bottom p-0">
+        <div class="container-fluid" id="footer-content">
+            <podcast-player></podcast-player>
+        </div>
+    </footer>
+
+    <script type="module" src="components/global-state.js"></script>
+    <script type="module" src="components/podcast-header.js"></script>
+    <script type="module" src="components/podcast-player.js"></script>
+    <script type="module" src="components/podcast-favorites.js"></script>
+    <script type="module" src="components/podcast-recommendations.js"></script>
+    <script type="module" src="components/podcast-search.js"></script>
+    <script type="module" src="components/podcast-startpage.js"></script>
+    <script type="module" src="components/podcast-card.js"></script>
+    <script type="module" src="components/podcast-list.js"></script>
+    <script type="module" src="components/podcast-episode.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
