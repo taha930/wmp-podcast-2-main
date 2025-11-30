@@ -1,11 +1,11 @@
 "use strict";
 
-import { PodcastStartpage } from '/components/podcast-startpage.js';
-import { PodcastRecommendations } from '/components/podcast-recommendations.js';
-import { PodcastFavorites } from '/components/podcast-favorites.js';
-import { PodcastSearch } from '/components/podcast-search.js';
-import { PodcastDetails } from '/components/podcast-details.js';
-import { PodcastEpisodeDetails } from '/components/podcast-episode-details.js';
+import { PodcastStartpage } from '../components/podcast-startpage.js';
+import { PodcastRecommendations } from '../components/podcast-recommendations.js';
+import { PodcastFavorites } from '../components/podcast-favorites.js';
+import { PodcastSearch } from '../components/podcast-search.js';
+import { PodcastDetails } from '../components/podcast-details.js';
+import { PodcastEpisodeDetails } from '../components/podcast-episode-details.js';
 import { GlobalState } from '../components/global-state.js';
 import { PodcastCategories } from '../components/podcast-categories.js';
 
