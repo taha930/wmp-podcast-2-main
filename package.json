@@ -1,6 +1,8 @@
 {
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "build": "echo \"static site: no build needed\""
+  },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.10.1"
